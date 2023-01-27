@@ -9,18 +9,24 @@
     margin: 0;
     padding: 0; 
 }
+.main {
+    padding: 30px;
+    background: #162831;
+}
 .container {
-    width: 1140px;
+    width: 1296px;
     margin: 0 auto;
 }
-.divider {
-    margin: 25px auto 0 auto;
-    width: 60px;
-    height: 3px;
-    background-color: $main-color;
-}
 
+// .divider {
+//     margin: 25px auto 0 auto;
+//     width: 60px;
+//     height: 3px;
+//     background-color: $main-color;
+// }
 
+@import "blocks/header.scss";
+@import "blocks/buttons.scss"
 //@import "blocks/promo";
 
 

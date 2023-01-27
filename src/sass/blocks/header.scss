@@ -1,0 +1,32 @@
+.header {
+    //position: relative;
+	//height: 60px;
+    //display: flex;
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        //position: fixed; 
+        //height: 60px;
+        //width: 100%;
+        //background: #414144; 
+        z-index: 1;
+        &__wrapper {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 21px 0;
+            margin: 0;
+            
+            list-style-type: none;
+        }
+        &__link {
+            margin-left: 50px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 135%;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+}
