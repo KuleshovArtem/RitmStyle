@@ -12,9 +12,10 @@
 .main {
     padding: 30px;
     background: #162831;
+    margin: 0 auto;
 }
 .container {
-    width: 1296px;
+    max-width: 1296px;
     margin: 0 auto;
 }
 
@@ -24,10 +25,14 @@
 //     height: 3px;
 //     background-color: $main-color;
 // }
-
+@import "blocks/title.scss";
 @import "blocks/header.scss";
-@import "blocks/buttons.scss"
-//@import "blocks/promo";
+@import "blocks/buttons.scss";
+@import "blocks/promo";
+@import "blocks/session.scss";
+@import "blocks/reviews";
+@import "blocks/about";
+
 
 
 //@import "blocks/media";
