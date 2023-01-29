@@ -4,7 +4,7 @@
     &__wrapper {
         margin-top: 100px;
         display: grid;
-        grid-template-columns: repeat(3, 418px);
+        grid-template-columns: repeat(3, minmax(auto, 418px));
         grid-template-rows: repeat(2, 258px);
         grid-auto-rows: 258px;
         gap: 24px;

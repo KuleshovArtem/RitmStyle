@@ -2,10 +2,15 @@
     margin-top: 150px;
     &__wrapper {
         display: flex;
+        justify-content: center;
     }
     &__map {
         margin-right: 48px;
+        width: 856px; 
+        max-height: 604px;
         iframe {
+            width: 100%;
+            height: 100%;
             border-radius: 10px;
         }
         
@@ -14,6 +19,7 @@
         padding: 35px 45px;
         width: 392px;
         height: 290px;
+        text-align:start;
         background: #018ABE;
         border-radius: 10px;
         &:first-child {

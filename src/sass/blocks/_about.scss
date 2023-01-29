@@ -2,25 +2,30 @@
     margin-top: 150px;
     min-height: 1024px;
     &__wrapper {
-        margin: 0 auto;
-        margin-top: 100px;
+        display: grid;
+        margin: 100px auto 0 auto;
+        grid-template-columns: repeat(2, minmax(auto, 526px));
+        grid-template-rows: repeat(2, minmax(auto, 400px) );
+        grid-auto-rows: minmax(auto, 400px);
+        column-gap: 24px;
+        row-gap: 100px;
+        justify-items: center;
         width: 1076px;
     }
-    &__item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        &:first-child{
-            margin-bottom: 100px;
-        }
-    }
+    // &__item {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: center;
+    //     &:first-child{
+    //         margin-bottom: 100px;
+    //     }
+    // }
     &__img {
         
         height: 400px;
         img{
             height: 100%;
             border-radius: 11px;
-            //width: 100%;
         }
     }
     &__descr {
@@ -40,5 +45,6 @@
         font-weight: 400;
         font-size: 16px;
         color: #FFFFFF;
+        text-align: left;
     }
 }
