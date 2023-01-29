@@ -5,8 +5,12 @@
     background: #018ABE;
     border-radius: 3px;
     border: none;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 13px;
-    //line-height: 140%;
     color: #FFFFFF;
+    &-white {
+        margin-top: 30px;
+        color: #018ABE;
+        background: #FFFFFF;
+    }
 }

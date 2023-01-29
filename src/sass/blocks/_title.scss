@@ -1,5 +1,6 @@
 .title {
     position: relative;
+    display: inline;
     font-weight: 700;
     font-size: 42px;
     text-align: center;
@@ -9,8 +10,8 @@
         position: absolute;
         width: 28px;
         height: 14px;
-        top: 6px;
-        right: 433px;
+        top: 23px;
+        left: -63px;
         background: url('../icons/right-arrow-b.svg') no-repeat;;
     }
     &::before {
@@ -18,8 +19,8 @@
         position: absolute;
         width: 28px;
         height: 14px;
-        top: 6px;
-        left: 433px;
+        top: 23px;
+        right: -63px;
         background: url('../icons/left-arrow-b.svg') no-repeat;;
     }
 
