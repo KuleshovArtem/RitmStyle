@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
+    // reviews tabs///
 
     const tabs = document.querySelectorAll('.controls__item');
     const tabsContent = document.querySelectorAll('.reviews__item');
@@ -53,4 +54,39 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         }
     });
+
+    // modal //
+
+    const modalTriger = document.querySelectorAll('[data-modal]');
+    const modal = document.querySelector('.modal');
+    const modalClose = document.querySelector('[data-close]');
+
+ 
+    
+    modalTriger.forEach( btn => {
+        btn.addEventListener('click', () => {
+            modal.classList.toggle('show');
+            document.body.style.overflow = 'hidden';
+        } );
+    });
+
+    function closeModal () {
+        modal.classList.toggle('show');
+        document.body.style.overflow = 'auto';
+    }
+    
+    modalClose.addEventListener('click', closeModal);
+
+    modal.addEventListener('click', (event) => {
+        if(event.target == modal) {
+           closeModal();
+        }
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (event.code == 'Escape' && modal.classList.contains('show')) {
+            closeModal();
+        } 
+    });
+
 });

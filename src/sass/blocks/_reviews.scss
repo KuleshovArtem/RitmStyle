@@ -3,6 +3,7 @@
     min-height: 585px;
     &__wrapper {
         margin-top: 100px;
+        height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -13,12 +14,12 @@
         text-align: left;
 
         padding: 40px 45px 70px 45px;
-        height: 330px;
+        //height: 330px;
         width: 30%;
         opacity: 0.4;
         &-active {
             padding: 50px 60px 56px 60px;
-            height: 420px;
+            //height: 420px;
             width: 35%;
             opacity: 1;
         }

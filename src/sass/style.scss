@@ -36,7 +36,16 @@
 @import "blocks/about";
 @import "blocks/price";
 @import "blocks/contacts";
+@import "blocks/modal";
 
 
+
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
 
 //@import "blocks/media";
